@@ -325,7 +325,7 @@ class SettingsFragment(
         }
 
         findPreference<Preference>("privacy")?.let {
-            it.summary = "https://www.home-assistant.io/privacy/"
+            it.summary = "https://www.u-sync.com/privacy/"
             it.intent = Intent(Intent.ACTION_VIEW, Uri.parse(it.summary.toString()))
         }
 
