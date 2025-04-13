@@ -1,12 +1,35 @@
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
     android:width="120dp"
     android:height="120dp"
-    android:viewportWidth="120"
-    android:viewportHeight="120">
-  <path
-      android:pathData="M120,112.38a7.5,7.5 0,0 1,-7.5 7.5H7.5a7.5,7.5 0,0 1,-7.5 -7.5v-45c0,-4.13 2.38,-9.88 5.3,-12.81l49.39,-49.39c2.91,-2.91 7.69,-2.91 10.6,0l49.4,49.4c2.91,2.91 5.3,8.68 5.3,12.81v45z"
-      android:fillColor="#18BCF2"/>
-  <path
-      android:pathData="M53.63,119.88 L33.32,99.57c-1.04,0.36 -2.16,0.56 -3.32,0.56 -5.65,0 -10.25,-4.6 -10.25,-10.25s4.6,-10.25 10.25,-10.25 10.25,4.6 10.25,10.25c0,1.16 -0.2,2.28 -0.56,3.33L55.5,109.02v-57.94c-3.4,-1.67 -5.75,-5.16 -5.75,-9.19 0,-5.65 4.6,-10.25 10.25,-10.25s10.25,4.6 10.25,10.25c0,4.03 -2.35,7.53 -5.75,9.19v40.63l15.73,-15.73c-0.31,-0.98 -0.48,-2.02 -0.48,-3.1 0,-5.65 4.6,-10.25 10.25,-10.25s10.25,4.6 10.25,10.25 -4.6,10.25 -10.25,10.25c-1.25,0 -2.44,-0.23 -3.55,-0.64L64.5,104.45v15.44z"
-      android:fillColor="#F2F4F9"/>
+    android:viewportWidth="240"
+    android:viewportHeight="240">
+    <!-- 田地 (Field/Farmland) -->
+    <path
+        android:pathData="M0,160c40,-40 80,-40 120,0s80,40 120,0v80L0,240L0,160z"
+        android:fillColor="#88C057"/>
+
+    <!-- 陽光 (Sun) -->
+    <path
+        android:pathData="M190,50m-25,0a25,25 0,1 1,50 0a25,25 0,1 1,-50 0"
+        android:fillColor="#FFD93B"/>
+    <path
+        android:pathData="M190,10L190,0M190,90L190,100M160,50L150,50M220,50L230,50M170,20L160,10M210,80L220,90M210,20L220,10M170,80L160,90"
+        android:strokeWidth="4"
+        android:fillColor="#00000000"
+        android:strokeColor="#FFD93B"/>
+
+    <!-- 嫩芽主莖 (Plant Stem) -->
+    <path
+        android:pathData="M120,140c-10,-30 0,-50 10,-50s20,20 10,50c-5,15 -15,15 -20,0z"
+        android:fillColor="#4CAF50"/>
+
+    <!-- 左葉 (Left Leaf) -->
+    <path
+        android:pathData="M115,125c-10,-10 -25,-10 -35,-5 5,15 20,20 35,20v-15z"
+        android:fillColor="#66BB6A"/>
+
+    <!-- 右葉 (Right Leaf) -->
+    <path
+        android:pathData="M125,125c10,-10 25,-10 35,-5 -5,15 -20,20 -35,20v-15z"
+        android:fillColor="#66BB6A"/>
 </vector>
